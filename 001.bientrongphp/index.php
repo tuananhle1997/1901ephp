@@ -17,7 +17,7 @@ Nếu echo 1 số thì không cần để trong "" hoặc ''
 </pre>
 
     <?php
-    echo "index.php";
+    echo "index4.php";
     echo "<br>";
     echo 5;
     echo "<p>PHP in ra thẻ html</p>";
