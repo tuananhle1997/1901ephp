@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
 
 <?php
-/*
- * Nạp kết nối CSDL vào file này
- */
+
 include_once "config.php";
-if (isset($_POST['name']) && isset($_POST['address']) && isset($_POST['salary'])) {
-    if ($_POST['name'] && $_POST['address'] && ($_POST['salary'] > 0)) {
-        $name = $_POST['name'];
-        $address = $_POST['address'];
-        $salary = $_POST['salary'];
-        $sqlInsert = "INSERT INTO employees (name, address, salary) VALUES ('$name', '$address', $salary)";
+if (isset($_POST['id']) && isset($_POST['ten']) && isset($_POST['giatien']) && isset($_POST['tonkho']) && isset($_POST['nhacungcap']) && isset($_POST['ngaytao'])) {
+    if ($_POST['id'] && $_POST['ten'] && ($_POST['giatien'] > 0) && $_POST['tonkho'] && $_POST['nhacungcap'] && $_POST['ngaytao'] ) {
+        $id = $_POST['id'];
+        $ten = $_POST['ten'];
+        $giatien = $_POST['giatien'];
+        $tonkho = $_POST['tonkho'];
+        $nhacungcap = $_POST['nhacungcap'];
+        $ngaytao = $_POST['ngaytao'];
+        $sqlInsert = "INSERT INTO product (id, ten, giatien, tonkho, nhacungcap, ngaytao) VALUES ('$id', '$ten', $giatien, '$tonkho', '$nhacungcap', '$ngaytao')";
         if (mysqli_query($connection, $sqlInsert)) {
             echo "Insert thành công";
             /**
@@ -35,8 +35,8 @@ if (isset($_POST['name']) && isset($_POST['address']) && isset($_POST['salary'])
 echo "<pre>";
 print_r($_POST);
 echo "</pre>";
-?>
 
+?>
 
 <div class="container">
     <div class="row">
@@ -50,21 +50,28 @@ echo "</pre>";
                         <input type="text" class="form-control" name="name">
                     </div>
                     <div class="form-group">
-                        <label>Địa chỉ</label>
-                        <input type="text" class="form-control" name="address">
+                        <label>Giá tiền</label>
+                        <input type="text" class="form-control" name="giatien">
                     </div>
                     <div class="form-group">
-                        <label>Lương</label>
-                        <input type="text" class="form-control" name="salary">
+                        <label>Tồn kho</label>
+                        <input type="text" class="form-control" name="tonkho">
                     </div>
+                    <div class="form-group">
+                        <label>Nhà cung cấp</label>
+                        <input type="text" class="form-control" name="nhacungcap">
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày tạo</label>
+                        <input type="text" class="form-control" name="ngaytao">
+                    </div>
+
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
-
-
 
 </body>
 </html>

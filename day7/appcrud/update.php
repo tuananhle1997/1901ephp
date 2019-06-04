@@ -1,5 +1,4 @@
 <?php
-
 include_once "config.php";
 if (isset($_POST['id']) && isset($_POST['name']) && isset($_POST['address']) && isset($_POST['salary'])) {
     if ($_POST['name'] && $_POST['address'] && ($_POST['salary'] > 0)) {
@@ -19,5 +18,6 @@ if (isset($_POST['id']) && isset($_POST['name']) && isset($_POST['address']) && 
         }
     }
 }
-
-?>
+echo "<pre>";
+print_r($_POST);
+echo "</pre>";
