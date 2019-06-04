@@ -12,19 +12,21 @@
  * Nạp kết nối CSDL vào file này
  */
 include_once "config.php";
-$id = '';
 $ten = '';
 $giatien = '';
 $tonkho = '';
 $nhacungcap = '';
 $ngaytao = '';
 if (isset($_GET['id'])) {
-    $sanpham_id = (int) $_GET['id'];
-    $sqlSelect = "SELECT * FROM sanpham WHERE id = " . $sanpham_id;
+    $product_id = (int) $_GET['id'];
+    $sqlSelect = "SELECT * FROM product WHERE id = " . $product_id;
     $result = mysqli_query($connection, $sqlSelect);
     $row = mysqli_fetch_assoc($result);
+
+
     // cú pháp rút gon của if else ( condition ? câu lênh chạy khi đk la true : câu lệnh chạy khi dk = false
-    $id = isset($row['id']) ? $row['id'] : '';
+
+
     $ten = isset($row['ten']) ? $row['ten'] : '';
     $giatien = isset($row['giatien']) ? $row['giatien'] : '';
     $tonkho = isset($row['tonkho']) ? $row['tonkho'] : '';
@@ -37,7 +39,7 @@ if (isset($_GET['id'])) {
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Sửa nhân viên </h1>
+            <h1>Sửa sản phẩm </h1>
 
             <div>
                 <form name="edit" action="update.php" method="post">

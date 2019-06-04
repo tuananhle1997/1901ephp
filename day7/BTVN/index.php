@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div style="margin: 30px 0">
-                    <a  class="btn btn-success" href="create.php">Thêm mới sản phẩm</a>
+                    <a href="create.php" class="btn btn-success">Thêm mới sản phẩm</a>
                 </div>
                 <table class="table" >
                     <thead>

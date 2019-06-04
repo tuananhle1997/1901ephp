@@ -25,8 +25,10 @@ if (isset($_POST['name']) && isset($_POST['address']) && isset($_POST['salary'])
             /**
              * hàm header được dùng để chuyển hương url
              */
+
             header('Location: index.php');
             exit;
+
         } else {
             echo "Insert thất bại";
         }

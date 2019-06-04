@@ -11,21 +11,22 @@
 <?php
 
 include_once "config.php";
-if (isset($_POST['id']) && isset($_POST['ten']) && isset($_POST['giatien']) && isset($_POST['tonkho']) && isset($_POST['nhacungcap']) && isset($_POST['ngaytao'])) {
+if (isset($_POST['ten']) && isset($_POST['giatien']) && isset($_POST['tonkho']) && isset($_POST['nhacungcap']) && isset($_POST['ngaytao'])) {
     if ($_POST['id'] && $_POST['ten'] && ($_POST['giatien'] > 0) && $_POST['tonkho'] && $_POST['nhacungcap'] && $_POST['ngaytao'] ) {
-        $id = $_POST['id'];
+
         $ten = $_POST['ten'];
         $giatien = $_POST['giatien'];
         $tonkho = $_POST['tonkho'];
         $nhacungcap = $_POST['nhacungcap'];
         $ngaytao = $_POST['ngaytao'];
-        $sqlInsert = "INSERT INTO product (id, ten, giatien, tonkho, nhacungcap, ngaytao) VALUES ('$id', '$ten', $giatien, '$tonkho', '$nhacungcap', '$ngaytao')";
+
+        $sqlInsert = "INSERT INTO product (ten, giatien, tonkho, nhacungcap, ngaytao) VALUES ('$ten', $giatien, '$tonkho', '$nhacungcap', '$ngaytao')";
         if (mysqli_query($connection, $sqlInsert)) {
             echo "Insert thành công";
             /**
              * hàm header được dùng để chuyển hương url
              */
-            header('Location: index.php');
+            header('Location:index.php');
             exit;
         } else {
             echo "Insert thất bại";
@@ -41,7 +42,7 @@ echo "</pre>";
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Tạo nhân viên mới</h1>
+            <h1>Tạo sản phẩm mới</h1>
 
             <div>
                 <form name="create" action="" method="post">
