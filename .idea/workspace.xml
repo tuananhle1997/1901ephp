@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29264e52-c913-434b-afd7-dbf01535737e" name="Default Changelist" comment="1111">
-      <change afterPath="$PROJECT_DIR$/.idea/1901ephp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6 hoc SQL/index13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6 hoc SQL/index14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6 hoc SQL/index15.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6 hoc SQL/index16.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/abc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/appcrud/lythuyet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude1/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude1/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude2/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude3/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude3/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude4/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude4/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude5/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude5/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/includeonce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/lythuyet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/require.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7/napinclude6/requireonce.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.bientrongphp/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/001.bientrongphp/index.php" afterDir="false" />
+    <list default="true" id="29264e52-c913-434b-afd7-dbf01535737e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day7/appcrud/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/appcrud/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/day7/appcrud/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7/appcrud/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/day7/appcrud/edit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day7/appcrud/create.php">
+        <entry file="file://$PROJECT_DIR$/day7/appcrud/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -77,8 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day2/7.array/index6.php" />
-        <option value="$PROJECT_DIR$/day2/7.array/index5.php" />
         <option value="$PROJECT_DIR$/day2/7.array/index7.php" />
         <option value="$PROJECT_DIR$/day3/1.senddata/POST.php" />
         <option value="$PROJECT_DIR$/day3/1.senddata/GET.php" />
@@ -127,22 +95,14 @@
         <option value="$PROJECT_DIR$/day7/appcrud/sample.php" />
         <option value="$PROJECT_DIR$/day7/appcrud/config.php" />
         <option value="$PROJECT_DIR$/day7/appcrud/index.php" />
+        <option value="$PROJECT_DIR$/day7/appcrud/edit.php" />
         <option value="$PROJECT_DIR$/day7/appcrud/create.php" />
+        <option value="$PROJECT_DIR$/day7/appcrud/update.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/1901ephp.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -162,17 +122,6 @@
             <path>
               <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
               <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-              <item name="appcrud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,7 +178,8 @@
       <workItem from="1558966532388" duration="38000" />
       <workItem from="1559002364026" duration="6756000" />
       <workItem from="1559101718430" duration="302000" />
-      <workItem from="1559172464642" duration="6100000" />
+      <workItem from="1559172464642" duration="9189000" />
+      <workItem from="1559576041365" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1557975262264</created>
@@ -329,16 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559006562265</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1111">
+      <created>1559179135066</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559179135066</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28772000" />
+    <option name="totallyTimeSpent" value="32217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,13 +345,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="1111" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/001.bientrongphp/abc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day5/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -663,20 +613,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7/appcrud/index1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/appcrud/sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/index1.php" />
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/sample.php" />
     <entry file="file://$PROJECT_DIR$/day7/appcrud/lythuyet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -691,19 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day7/appcrud/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="11" selection-start-line="13" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/appcrud/edit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day7/appcrud/delete.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/day7/appcrud/abc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -713,19 +638,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day7/appcrud/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="325">
           <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day7/appcrud/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="325">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#331#367#0#PHP" expanded="true" />
+            <element signature="e#1000#1015#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="11" selection-start-line="13" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/delete.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day7/appcrud/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

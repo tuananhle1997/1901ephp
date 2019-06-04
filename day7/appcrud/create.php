@@ -7,12 +7,40 @@
 
 </head>
 <body>
+<?php
+
+/**
+ * Kết nối CSDL vào file này
+ *
+ */
+
+include_once "config.php";
+
+if (isset($_POST['name']) && isset($_POST['address']) && isset($_POST['salary'])){
+    if ($_POST['name'] && $_POST['address']&& ($_POST['salary'] > 0 )){
+        $name = $_POST['name'];
+        $address = $_POST['address'];
+        $salary = $_POST ['salary'];
+
+        $sqlInsert = "INSERT INTO employees (name , address, salary) VALUE ('$name', '$address', '$salary')";
+        if (mysqli_query($connection,$sqlInsert)){
+            echo "INSERT thành công";
+           header('Location:index.php');
+            exit;
+        }else{
+            echo "INSERT thất bại";
+        }
+
+    }
+}
+
+?>
 
 <?php
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
-?>
+//echo "<pre>";
+//print_r($_POST);
+//echo "</pre>";
+//?>
 
 <div class="container">
     <div class="row">
