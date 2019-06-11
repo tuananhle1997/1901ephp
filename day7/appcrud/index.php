@@ -79,21 +79,21 @@ $result = mysqli_query($connection, $sqlSelect);
                                 <div>
                                     <a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'] ?>">Xoá nhân viên</a>
                                 </div>
-                            </td>
-                        </tr>
-                        <?php
-                    }
-                } else {
-                    echo "<br> Không có bản ghi nào trong CSDL";
-                }
-                ?>
+                                </td>
+                            </tr>
+                            <?php
+                                    }
+                                } else {
+                                    echo "<br> Không có bản ghi nào trong CSDL";
+                                }
+                            ?>
 
 
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-</div>
 
-</body>
-</html>
+    </body>
+    </html>
