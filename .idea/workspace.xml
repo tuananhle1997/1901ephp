@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29264e52-c913-434b-afd7-dbf01535737e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day8/phamvicuabien/index1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day8/thamchieuthamtri/index1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/index1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/index2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/index3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/khaibaoclosure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/Lambda/su_dung_closure.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/app/controllers/CommonController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/app/controllers/backend/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/app/controllers/frontend/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/app/models/CommonModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/vendor/duc/src/Abc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/vendor/duc/src/console/Http.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/vendor/ngan/src/Abc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day9/namespace/vendor/ngan/src/Console/Http.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7/appcrud/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/day7/appcrud/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day7/appcrud/abc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -138,22 +120,6 @@
               <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
               <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-              <item name="day7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-              <item name="day9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1901ephp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1901ephp" type="462c0819:PsiDirectoryNode" />
-              <item name="day9" type="462c0819:PsiDirectoryNode" />
-              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +182,7 @@
       <workItem from="1559690365073" duration="9753000" />
       <workItem from="1559821058683" duration="9068000" />
       <workItem from="1559873805531" duration="1440000" />
-      <workItem from="1560218130207" duration="619000" />
+      <workItem from="1560218130207" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1557975262264</created>
@@ -358,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559698795369</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1111">
+      <created>1560220189167</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560220189167</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60020000" />
+    <option name="totallyTimeSpent" value="60764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -763,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day7/appcrud/abc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
